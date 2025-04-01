@@ -24,11 +24,7 @@
     <meta name="robots" content="index, follow"> <!--descripcion-->
     <meta name="theme-color" content="#09f"> <!--color de la barra de navegacion-->
     <link rel="icon" type="/image/jpg" href="/images/willy 2.jpg"> <!--icono de la pestaña-->
-    <style>
-        body {
-            background: #d9e7d8;
-        }
-    </style>
+    
 </head>
 
 <body>
@@ -58,10 +54,10 @@
     <button id="show">Ver mas informacion</button>
 
     <script>
-        window.show.addEventListener('click', () =>{
+        window.show.addEventListener('click', () => {
             window.dialog.showModal();
         });
-        window.hide.addEventListener('click', () =>{
+        window.hide.addEventListener('click', () => {
             window.dialog.close();
         });
     </script>
@@ -98,10 +94,7 @@
             <article>
                 <header>
                     <h4>La pagina de Tesla</h4>
-                    <img 
-                        style="width: 100%; aspect-ratio: 1859/851;"
-                        loading="lazy" 
-                        src="/images/tesla.png" 
+                    <img style="width: 100%; aspect-ratio: 1859/851;" loading="lazy" src="/images/tesla.png"
                         alt="captura de pantalla de la pagina web de tesla">
                 </header>
                 <p>Elon Musk me llamo e hice esta pagina desde cero</p>
@@ -158,7 +151,8 @@
                 <fieldset>
                     <legend>Informacion Adicional</legend>
                     <div>
-                        <label>Telefono: <input type="tel" name="phone" placeholder="Willan Caraguay" required pattern="[0-9]{9}">
+                        <label>Telefono: <input type="tel" name="phone" placeholder="Willan Caraguay" required
+                                pattern="[0-9]{9}">
                         </label>
                     </div>
                 </fieldset>
